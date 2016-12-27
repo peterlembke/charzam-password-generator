@@ -126,9 +126,13 @@ class password {
 
 $password = new password();
 
+$lengthText = '16-64';
 $length = $_GET['length'];
 if (empty($length)) {
     $length = 0;
+}
+if ($length > 0) {
+    $lengthText = (string) $length;
 }
 
 $maxGroupNumber = $_GET['max_group_number'];
@@ -136,7 +140,7 @@ if (empty($maxGroupNumber)) {
     $maxGroupNumber = 4;
 }
 
-echo "<p>Password generator 16-64 characters from all five groups of characters. (Requires PHP7)</p>";
+echo "<p>Password generator " .$lengthText. " characters from group 0-" . $maxGroupNumber . ".</p>";
 for ($i = 30; $i > 0; $i--) {
     $result = $password->generate($length, $maxGroupNumber);
     echo "<pre>No#" . (31-$i) . " - " . $result . "</pre>";
