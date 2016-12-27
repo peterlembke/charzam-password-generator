@@ -146,3 +146,7 @@ for ($i = 30; $i > 0; $i--) {
     echo "<pre>No#" . (31-$i) . " - " . $result . "</pre>";
 }
 echo "<p>Created by Peter Lembke CharZam soft 2016-12-27. License: Gnu GPL 3 or later</p>";
+echo '<p><a href="https://github.com/peterlembke/charzam-password-generator" target="_blank">English instructions on Github</a>, <a href="http://www.charzam.com/2016/12/27/battre-losenord/" target="_blank">Swedish instructions on my homepage</a></p>';
+
+
+
