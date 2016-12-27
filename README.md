@@ -26,8 +26,8 @@ PHP 5 uses mt_rand(), an OK random generator
 PHP 7 uses random_int(), a better random generator
 
 # Examples
-http://charzam.com/password/?length=32&max_group_number=3
-http://charzam.com/password/?length=16&max_group_number=2
+    http://charzam.com/password/?length=32&max_group_number=3
+    http://charzam.com/password/?length=16&max_group_number=2
 
 # Passwords - general caution
 There is no souch thing as a good password. Passwords should never be used. But we are in a world filled with passwords, and the only thing we can do is to make it the passwords as secure as possible.
