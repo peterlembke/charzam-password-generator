@@ -1,3 +1,9 @@
+# Quick info
+Password generator
+PHP 5 or higher
+Stand alone class, no dependencies
+Gnu GPL 3 or later
+
 # charzam-password-generator
 Generates passwords for you to use.
 You get 30 passwords listed and can pick anyone of them or refresh the page and get another 30.
