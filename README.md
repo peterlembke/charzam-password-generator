@@ -1,8 +1,8 @@
 # Quick info
-Password generator
-PHP 5 or higher
-Stand alone class, no dependencies
-Gnu GPL 3 or later
+* Password generator
+* PHP 5 or higher
+* Stand alone class, no dependencies
+* Gnu GPL 3 or later
 
 # charzam-password-generator
 Generates passwords for you to use.
