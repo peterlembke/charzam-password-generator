@@ -44,5 +44,8 @@ There is no souch thing as a good password. Passwords should never be used. But 
 * Password should be used every time - Do not let your browser remember the password.
 * Keep your password in an encrypted file locally stored – Do not use password managers like LastPass.
 
+# Used in
+This code is part of [InfoHub](https://github.com/peterlembke/infohub). It is a plugin with a graphical user interface. You can test it here: [InfoHub](https://www.infohub.se). Switch list. Refresh. Click icon for Tools. Select Passwords.
+
 # License
 Gnu GPL 3 or later
